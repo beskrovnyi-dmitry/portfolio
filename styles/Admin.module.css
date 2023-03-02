@@ -1,0 +1,67 @@
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item {
+  flex: 1;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table th{
+  padding: 0 15px 15px;
+}
+.table td{
+  border-bottom: 1px solid #807f7f;
+  padding: 10px 13px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delButton{
+  background-color: crimson;
+  padding: 10px 10px;
+}
+.payButton{
+  background-color: teal;
+  padding: 10px 10px;
+}
+.delOrders{
+  padding: 10px;
+  background-color: #d1411e;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+}
+.nopaid {
+  background-color: rgb(245, 149, 168);
+  padding: 5px 10px;
+}
+
+.paid {
+  background-color: rgb(165, 247, 165);
+  padding: 5px 10px;
+}
