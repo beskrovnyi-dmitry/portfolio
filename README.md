@@ -1,8 +1,6 @@
 Room Chat this is app based on ReactJS, Firebase Firestore db for storing messages by rooms and Firebase Auth through Google that allows identify users.
 
-![](https://github.com/beskrovnyi-dmitry/portfolio/tree/room-chat/public/room-chat1.png)
-![](https://github.com/beskrovnyi-dmitry/portfolio/tree/room-chat/public/room-chat2.png)
-![](https://github.com/beskrovnyi-dmitry/portfolio/tree/room-chat/public/room-chat3.png)
+<img src='/public/room-chat1.png' width='50%' heigth='50%'/> 
 
 ## Getting Started
 1. git clone https://github.com/beskrovnyi-dmitry/portfolio.git
