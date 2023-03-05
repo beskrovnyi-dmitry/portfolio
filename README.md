@@ -1,6 +1,7 @@
-Weather-app 
+Progrssive Weather App
+app: https://transcendent-pegasus-3429ad.netlify.app/
 
-<img src="/public/review-app.png"/>
+<img src="/public/pwa1.png"/>
 
 API:
 You need to sign up on following resources, subscribe and get your own API_KEY & configurations

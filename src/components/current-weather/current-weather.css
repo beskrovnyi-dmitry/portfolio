@@ -1,11 +1,11 @@
 .weather {
-  width: 350px;
   border-radius: 6px;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: hsl(0, 0%, 5%);
   background-color: #fbfcfd;
-  padding: 0 20px 20px 20px;
-  border-radius: 10%;
+  padding: 0 15px 15px 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
 }
 
 .top,
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 10px;
 }
 
 .city {
@@ -21,29 +22,29 @@
   line-height: 1;
   margin: 0;
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 .weather-description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1;
-  margin: 0;
+  margin-top: 0;
 }
 
 .weather-icon {
-  width: 100px;
+  width: 80px;
 }
 
 .temperature {
   font-weight: 600;
-  font-size: 70px;
-  width: auto;
+  font-size: 55px;
   letter-spacing: -5px;
   margin: 10px 0;
 }
 
 .details {
-  width: 100%;
+  width: 90%;
   padding-left: 20px;
 }
 
@@ -63,9 +64,58 @@
 .parameter-value {
   text-align: right;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .parameter-label.top {
   border-bottom: 1px solid #fff;
 }
+
+
+@media screen and (min-width: 480px) {
+  .temperature{
+    font-size: 75px;
+  }
+  .city{
+    font-size: 25px;
+  }
+  .parameter-label{
+    font-size: 21px;
+  }
+  .parameter-value{
+    font-size: 21px;
+  }
+  .bottom{
+    column-gap: 30px;
+  }
+
+  .temperature{
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .weather{
+    flex: 1;
+  }
+  .parameter-label{
+    font-size: 18px;
+  }
+  .parameter-value{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .parameter-label{
+    font-size: 21px;
+  }
+  .parameter-value{
+    font-size: 21px;
+  }
+  .temperature{
+    font-size: 80px;
+  }
+}
+
+

@@ -32,29 +32,29 @@ const Forecast = ({ data, DESC }) => {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div className="daily-details-grid">
-                <div className="daily-details-grid-item">
+              <div className="daily-details">
+                <div className="daily-details-item">
                   <label>Тиск:</label>
                   <label>{item.main.pressure} гПА</label>
                 </div>
-                <div className="daily-details-grid-item">
+                <div className="daily-details-item">
                   <label>Вологість:</label>
                   <label>{item.main.humidity} %</label>
                 </div>
-                <div className="daily-details-grid-item">
+                <div className="daily-details-item">
                   <label>Хмарність:</label>
                   <label>{item.clouds.all} %</label>
                 </div>
-                <div className="daily-details-grid-item">
+                <div className="daily-details-item">
                   <label>Вітер:</label>
                   <label>{item.wind.speed} м/с</label>
                 </div>
-                <div className="daily-details-grid-item">
+                <div className="daily-details-item">
                   <label>Висота над рівнем моря: </label>
                   <label>{ item.main.sea_level} м</label>
                 </div>
-                <div className="daily-details-grid-item">
-                  <label>Вiдчувається як:</label>
+                <div className="daily-details-item">
+                  <label>Відчувається як:</label>
                   <label>{item.main.feels_like}°C</label>
                 </div>
               </div>
